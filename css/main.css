@@ -94,6 +94,14 @@ a:hover, a:focus, a:active {
 	outline: 0;
 }
 
+
+p {
+  color: white;
+  font-family: "poppins-bold", sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
 /** 
  * ===================================================================
  * 03. typography & general theme styles - (_document-setup.scss)
@@ -1331,7 +1339,7 @@ header .logo a {
 	line-height: 1.071;
 	max-width: 900px;
 	margin-top: 0;
-	margin-bottom: .6rem;
+	margin-bottom: 3.6rem;
 	margin-left: auto;
 	margin-right: auto;
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -2595,5 +2603,6 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
 	background: #000000;
 }
+
 
 /*# sourceMappingURL=main.css.map */
